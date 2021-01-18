@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import webbrowser
 import functools
 
-
+#Master file containing all code and main
 class Deck():
     def __init__(self):
         cards = [[(y, x) for x in ['Clubs', 'Diamonds', 'Hearts', 'Spades']] for y in range(1, 14)]
