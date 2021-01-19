@@ -6,7 +6,7 @@ import webbrowser
 import functools
 
 #Master file containing all code and main
-#This is a blackjack game
+#This is a blackjack game !edit
 class Deck():
     def __init__(self):
         cards = [[(y, x) for x in ['Clubs', 'Diamonds', 'Hearts', 'Spades']] for y in range(1, 14)]
